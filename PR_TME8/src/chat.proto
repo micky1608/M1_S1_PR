@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package pr;
+
+message chatMessagePB {
+    string author = 1;
+    string mes = 2;
+}
+

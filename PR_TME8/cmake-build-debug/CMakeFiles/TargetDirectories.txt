@@ -1,0 +1,4 @@
+/root/CLionProjects/tme8-micky1608/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/root/CLionProjects/tme8-micky1608/cmake-build-debug/CMakeFiles/server.dir
+/root/CLionProjects/tme8-micky1608/cmake-build-debug/CMakeFiles/edit_cache.dir
+/root/CLionProjects/tme8-micky1608/cmake-build-debug/CMakeFiles/client.dir

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/CLionProjects/PR_TME1/String.h
+cstddef
+-
+iostream
+-
+
+/root/CLionProjects/PR_TME1/StringPtr.cpp
+StringPtr.h
+/root/CLionProjects/PR_TME1/StringPtr.h
+StringUtil.h
+/root/CLionProjects/PR_TME1/StringUtil.h
+cstring
+-
+iostream
+-
+
+/root/CLionProjects/PR_TME1/StringPtr.h
+memory
+-
+
+/root/CLionProjects/PR_TME1/StringUtil.h
+cstddef
+-
+
+/root/CLionProjects/PR_TME1/main.cpp
+iostream
+-
+StringUtil.h
+/root/CLionProjects/PR_TME1/StringUtil.h
+String.h
+/root/CLionProjects/PR_TME1/String.h
+StringPtr.h
+/root/CLionProjects/PR_TME1/StringPtr.h
+

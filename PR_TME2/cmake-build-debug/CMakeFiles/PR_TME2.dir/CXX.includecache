@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/CLionProjects/PR_TME2/Bucket.h
+iostream
+-
+
+/root/CLionProjects/PR_TME2/Hash_Table.h
+Bucket.h
+/root/CLionProjects/PR_TME2/Bucket.h
+Vector.h
+/root/CLionProjects/PR_TME2/Vector.h
+Linked_List.h
+/root/CLionProjects/PR_TME2/Linked_List.h
+
+/root/CLionProjects/PR_TME2/Linked_List.h
+cstddef
+-
+iostream
+-
+
+/root/CLionProjects/PR_TME2/Vector.h
+cstddef
+-
+iostream
+-
+
+/root/CLionProjects/PR_TME2/main.cpp
+iostream
+-
+Vector.h
+/root/CLionProjects/PR_TME2/Vector.h
+Linked_List.h
+/root/CLionProjects/PR_TME2/Linked_List.h
+Hash_Table.h
+/root/CLionProjects/PR_TME2/Hash_Table.h
+

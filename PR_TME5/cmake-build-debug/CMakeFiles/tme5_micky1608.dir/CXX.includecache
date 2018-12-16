@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/git/tme5-micky1608/src/Battle.cpp
+Battle.h
+/root/git/tme5-micky1608/src/Battle.h
+
+/root/git/tme5-micky1608/src/Battle.h
+sys/types.h
+-
+signal.h
+/root/git/tme5-micky1608/src/signal.h
+rsleep.h
+/root/git/tme5-micky1608/src/rsleep.h
+iostream
+-
+unistd.h
+-
+
+/root/git/tme5-micky1608/src/main.cpp
+unistd.h
+-
+sys/types.h
+-
+thread
+-
+Battle.h
+/root/git/tme5-micky1608/src/Battle.h
+
+/root/git/tme5-micky1608/src/rsleep.cpp
+rsleep.h
+/root/git/tme5-micky1608/src/rsleep.h
+
+/root/git/tme5-micky1608/src/rsleep.h
+ctime
+-
+cstdlib
+-
+

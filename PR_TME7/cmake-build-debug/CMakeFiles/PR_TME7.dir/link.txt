@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PR_TME7.dir/main.cpp.o CMakeFiles/PR_TME7.dir/server.cpp.o CMakeFiles/PR_TME7.dir/Socket.cpp.o CMakeFiles/PR_TME7.dir/client.cpp.o  -o PR_TME7 

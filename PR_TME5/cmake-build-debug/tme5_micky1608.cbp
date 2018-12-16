@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tme5_micky1608"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/git/tme5-micky1608/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/root/git/tme5-micky1608/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/root/git/tme5-micky1608/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tme5_micky1608">
+				<Option output="/root/git/tme5-micky1608/cmake-build-debug/tme5_micky1608" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/git/tme5-micky1608/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/git/tme5-micky1608/src"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 tme5_micky1608"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tme5_micky1608/fast">
+				<Option output="/root/git/tme5-micky1608/cmake-build-debug/tme5_micky1608" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/git/tme5-micky1608/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/git/tme5-micky1608/src"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 tme5_micky1608/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/git/tme5-micky1608/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/git/tme5-micky1608/src/Battle.cpp">
+			<Option target="tme5_micky1608"/>
+		</Unit>
+		<Unit filename="/root/git/tme5-micky1608/src/Battle.h">
+			<Option target="tme5_micky1608"/>
+		</Unit>
+		<Unit filename="/root/git/tme5-micky1608/src/fork_exo.cpp.">
+			<Option target="tme5_micky1608"/>
+		</Unit>
+		<Unit filename="/root/git/tme5-micky1608/src/main.cpp">
+			<Option target="tme5_micky1608"/>
+		</Unit>
+		<Unit filename="/root/git/tme5-micky1608/src/rsleep.cpp">
+			<Option target="tme5_micky1608"/>
+		</Unit>
+		<Unit filename="/root/git/tme5-micky1608/src/rsleep.h">
+			<Option target="tme5_micky1608"/>
+		</Unit>
+		<Unit filename="/root/git/tme5-micky1608/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

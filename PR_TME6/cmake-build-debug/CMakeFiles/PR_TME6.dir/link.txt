@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PR_TME6.dir/src/prod_cons.cpp.o CMakeFiles/PR_TME6.dir/src/Shell.cpp.o  -o PR_TME6 -lpthread -lrt 

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/CLionProjects/PR_TME3/Banque.cpp
+thread
+-
+algorithm
+-
+iostream
+-
+Banque.h
+/root/CLionProjects/PR_TME3/Banque.h
+
+/root/CLionProjects/PR_TME3/Banque.h
+vector
+-
+Compte.h
+/root/CLionProjects/PR_TME3/Compte.h
+
+/root/CLionProjects/PR_TME3/Compte.h
+atomic
+-
+mutex
+-
+

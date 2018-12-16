@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/CLionProjects/PR_TME6/src/Stack.h
+cstring
+-
+semaphore.h
+-
+iostream
+-
+
+/root/CLionProjects/PR_TME6/src/prod_cons.cpp
+Stack.h
+/root/CLionProjects/PR_TME6/src/Stack.h
+iostream
+-
+unistd.h
+-
+sys/wait.h
+-
+vector
+-
+sys/mman.h
+-
+fcntl.h
+-
+
