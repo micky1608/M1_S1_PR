@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/CLionProjects/M1_S1_PR/PR_TME9/main.cpp
+iostream
+-
+semaphore.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+cstring
+-
+unistd.h
+-
+wait.h
+-
+sys/stat.h
+-
+errno.h
+-
+
