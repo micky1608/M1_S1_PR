@@ -1,3 +1,4 @@
 /root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles/edit_cache.dir
-/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles/PR_TME9.dir
+/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles/PR_TME9_EX2.dir
+/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles/PR_TME9_EX1.dir

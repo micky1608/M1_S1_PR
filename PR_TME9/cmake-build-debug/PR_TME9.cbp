@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="PR_TME9">
-				<Option output="/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/PR_TME9" prefix_auto="0" extension_auto="0"/>
+			<Target title="PR_TME9_EX2">
+				<Option output="/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/PR_TME9_EX2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -54,14 +54,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 PR_TME9"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 PR_TME9_EX2"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="PR_TME9/fast">
-				<Option output="/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/PR_TME9" prefix_auto="0" extension_auto="0"/>
+			<Target title="PR_TME9_EX2/fast">
+				<Option output="/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/PR_TME9_EX2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -77,15 +77,64 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 PR_TME9/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 PR_TME9_EX2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PR_TME9_EX1">
+				<Option output="/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/PR_TME9_EX1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 PR_TME9_EX1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PR_TME9_EX1/fast">
+				<Option output="/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/PR_TME9_EX1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 PR_TME9_EX1/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/root/CLionProjects/M1_S1_PR/PR_TME9/main.cpp">
-			<Option target="PR_TME9"/>
+		<Unit filename="/root/CLionProjects/M1_S1_PR/PR_TME9/pr_tme9_ex1.cpp">
+			<Option target="PR_TME9_EX1"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/M1_S1_PR/PR_TME9/pr_tme9_ex2.cpp">
+			<Option target="PR_TME9_EX2"/>
 		</Unit>
 		<Unit filename="/root/CLionProjects/M1_S1_PR/PR_TME9/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

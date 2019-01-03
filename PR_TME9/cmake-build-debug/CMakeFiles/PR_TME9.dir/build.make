@@ -57,27 +57,27 @@ include CMakeFiles/PR_TME9.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PR_TME9.dir/flags.make
 
-CMakeFiles/PR_TME9.dir/main.cpp.o: CMakeFiles/PR_TME9.dir/flags.make
-CMakeFiles/PR_TME9.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PR_TME9.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PR_TME9.dir/main.cpp.o -c /root/CLionProjects/M1_S1_PR/PR_TME9/main.cpp
+CMakeFiles/PR_TME9.dir/pr_tme9_ex1.cpp.o: CMakeFiles/PR_TME9.dir/flags.make
+CMakeFiles/PR_TME9.dir/pr_tme9_ex1.cpp.o: ../pr_tme9_ex1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PR_TME9.dir/pr_tme9_ex1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PR_TME9.dir/pr_tme9_ex1.cpp.o -c /root/CLionProjects/M1_S1_PR/PR_TME9/pr_tme9_ex1.cpp
 
-CMakeFiles/PR_TME9.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PR_TME9.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/M1_S1_PR/PR_TME9/main.cpp > CMakeFiles/PR_TME9.dir/main.cpp.i
+CMakeFiles/PR_TME9.dir/pr_tme9_ex1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PR_TME9.dir/pr_tme9_ex1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/M1_S1_PR/PR_TME9/pr_tme9_ex1.cpp > CMakeFiles/PR_TME9.dir/pr_tme9_ex1.cpp.i
 
-CMakeFiles/PR_TME9.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PR_TME9.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/M1_S1_PR/PR_TME9/main.cpp -o CMakeFiles/PR_TME9.dir/main.cpp.s
+CMakeFiles/PR_TME9.dir/pr_tme9_ex1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PR_TME9.dir/pr_tme9_ex1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/M1_S1_PR/PR_TME9/pr_tme9_ex1.cpp -o CMakeFiles/PR_TME9.dir/pr_tme9_ex1.cpp.s
 
 # Object files for target PR_TME9
 PR_TME9_OBJECTS = \
-"CMakeFiles/PR_TME9.dir/main.cpp.o"
+"CMakeFiles/PR_TME9.dir/pr_tme9_ex1.cpp.o"
 
 # External object files for target PR_TME9
 PR_TME9_EXTERNAL_OBJECTS =
 
-PR_TME9: CMakeFiles/PR_TME9.dir/main.cpp.o
+PR_TME9: CMakeFiles/PR_TME9.dir/pr_tme9_ex1.cpp.o
 PR_TME9: CMakeFiles/PR_TME9.dir/build.make
 PR_TME9: CMakeFiles/PR_TME9.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PR_TME9"

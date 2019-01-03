@@ -111,44 +111,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PR_TME9
+# Target rules for targets named PR_TME9_EX2
 
 # Build rule for target.
-PR_TME9: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 PR_TME9
-.PHONY : PR_TME9
+PR_TME9_EX2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PR_TME9_EX2
+.PHONY : PR_TME9_EX2
 
 # fast build rule for target.
-PR_TME9/fast:
-	$(MAKE) -f CMakeFiles/PR_TME9.dir/build.make CMakeFiles/PR_TME9.dir/build
-.PHONY : PR_TME9/fast
+PR_TME9_EX2/fast:
+	$(MAKE) -f CMakeFiles/PR_TME9_EX2.dir/build.make CMakeFiles/PR_TME9_EX2.dir/build
+.PHONY : PR_TME9_EX2/fast
 
-main.o: main.cpp.o
+#=============================================================================
+# Target rules for targets named PR_TME9_EX1
 
-.PHONY : main.o
+# Build rule for target.
+PR_TME9_EX1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PR_TME9_EX1
+.PHONY : PR_TME9_EX1
+
+# fast build rule for target.
+PR_TME9_EX1/fast:
+	$(MAKE) -f CMakeFiles/PR_TME9_EX1.dir/build.make CMakeFiles/PR_TME9_EX1.dir/build
+.PHONY : PR_TME9_EX1/fast
+
+pr_tme9_ex1.o: pr_tme9_ex1.cpp.o
+
+.PHONY : pr_tme9_ex1.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/PR_TME9.dir/build.make CMakeFiles/PR_TME9.dir/main.cpp.o
-.PHONY : main.cpp.o
+pr_tme9_ex1.cpp.o:
+	$(MAKE) -f CMakeFiles/PR_TME9_EX1.dir/build.make CMakeFiles/PR_TME9_EX1.dir/pr_tme9_ex1.cpp.o
+.PHONY : pr_tme9_ex1.cpp.o
 
-main.i: main.cpp.i
+pr_tme9_ex1.i: pr_tme9_ex1.cpp.i
 
-.PHONY : main.i
+.PHONY : pr_tme9_ex1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/PR_TME9.dir/build.make CMakeFiles/PR_TME9.dir/main.cpp.i
-.PHONY : main.cpp.i
+pr_tme9_ex1.cpp.i:
+	$(MAKE) -f CMakeFiles/PR_TME9_EX1.dir/build.make CMakeFiles/PR_TME9_EX1.dir/pr_tme9_ex1.cpp.i
+.PHONY : pr_tme9_ex1.cpp.i
 
-main.s: main.cpp.s
+pr_tme9_ex1.s: pr_tme9_ex1.cpp.s
 
-.PHONY : main.s
+.PHONY : pr_tme9_ex1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/PR_TME9.dir/build.make CMakeFiles/PR_TME9.dir/main.cpp.s
-.PHONY : main.cpp.s
+pr_tme9_ex1.cpp.s:
+	$(MAKE) -f CMakeFiles/PR_TME9_EX1.dir/build.make CMakeFiles/PR_TME9_EX1.dir/pr_tme9_ex1.cpp.s
+.PHONY : pr_tme9_ex1.cpp.s
+
+pr_tme9_ex2.o: pr_tme9_ex2.cpp.o
+
+.PHONY : pr_tme9_ex2.o
+
+# target to build an object file
+pr_tme9_ex2.cpp.o:
+	$(MAKE) -f CMakeFiles/PR_TME9_EX2.dir/build.make CMakeFiles/PR_TME9_EX2.dir/pr_tme9_ex2.cpp.o
+.PHONY : pr_tme9_ex2.cpp.o
+
+pr_tme9_ex2.i: pr_tme9_ex2.cpp.i
+
+.PHONY : pr_tme9_ex2.i
+
+# target to preprocess a source file
+pr_tme9_ex2.cpp.i:
+	$(MAKE) -f CMakeFiles/PR_TME9_EX2.dir/build.make CMakeFiles/PR_TME9_EX2.dir/pr_tme9_ex2.cpp.i
+.PHONY : pr_tme9_ex2.cpp.i
+
+pr_tme9_ex2.s: pr_tme9_ex2.cpp.s
+
+.PHONY : pr_tme9_ex2.s
+
+# target to generate assembly for a file
+pr_tme9_ex2.cpp.s:
+	$(MAKE) -f CMakeFiles/PR_TME9_EX2.dir/build.make CMakeFiles/PR_TME9_EX2.dir/pr_tme9_ex2.cpp.s
+.PHONY : pr_tme9_ex2.cpp.s
 
 # Help Target
 help:
@@ -158,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... PR_TME9"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... PR_TME9_EX2"
+	@echo "... PR_TME9_EX1"
+	@echo "... pr_tme9_ex1.o"
+	@echo "... pr_tme9_ex1.i"
+	@echo "... pr_tme9_ex1.s"
+	@echo "... pr_tme9_ex2.o"
+	@echo "... pr_tme9_ex2.i"
+	@echo "... pr_tme9_ex2.s"
 .PHONY : help
 
 

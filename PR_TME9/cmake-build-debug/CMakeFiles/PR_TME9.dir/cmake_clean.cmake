@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PR_TME9.dir/main.cpp.o"
+  "CMakeFiles/PR_TME9.dir/pr_tme9_ex1.cpp.o"
   "PR_TME9.pdb"
   "PR_TME9"
 )

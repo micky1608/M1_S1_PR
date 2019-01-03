@@ -65,39 +65,76 @@ CMAKE_SOURCE_DIR = /root/CLionProjects/M1_S1_PR/PR_TME9
 CMAKE_BINARY_DIR = /root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/PR_TME9.dir
+# Target rules for target CMakeFiles/PR_TME9_EX2.dir
 
 # All Build rule for target.
-CMakeFiles/PR_TME9.dir/all:
-	$(MAKE) -f CMakeFiles/PR_TME9.dir/build.make CMakeFiles/PR_TME9.dir/depend
-	$(MAKE) -f CMakeFiles/PR_TME9.dir/build.make CMakeFiles/PR_TME9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target PR_TME9"
-.PHONY : CMakeFiles/PR_TME9.dir/all
+CMakeFiles/PR_TME9_EX2.dir/all:
+	$(MAKE) -f CMakeFiles/PR_TME9_EX2.dir/build.make CMakeFiles/PR_TME9_EX2.dir/depend
+	$(MAKE) -f CMakeFiles/PR_TME9_EX2.dir/build.make CMakeFiles/PR_TME9_EX2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target PR_TME9_EX2"
+.PHONY : CMakeFiles/PR_TME9_EX2.dir/all
 
 # Include target in all.
-all: CMakeFiles/PR_TME9.dir/all
+all: CMakeFiles/PR_TME9_EX2.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/PR_TME9.dir/rule: cmake_check_build_system
+CMakeFiles/PR_TME9_EX2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PR_TME9.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PR_TME9_EX2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/PR_TME9.dir/rule
+.PHONY : CMakeFiles/PR_TME9_EX2.dir/rule
 
 # Convenience name for target.
-PR_TME9: CMakeFiles/PR_TME9.dir/rule
+PR_TME9_EX2: CMakeFiles/PR_TME9_EX2.dir/rule
 
-.PHONY : PR_TME9
-
-# clean rule for target.
-CMakeFiles/PR_TME9.dir/clean:
-	$(MAKE) -f CMakeFiles/PR_TME9.dir/build.make CMakeFiles/PR_TME9.dir/clean
-.PHONY : CMakeFiles/PR_TME9.dir/clean
+.PHONY : PR_TME9_EX2
 
 # clean rule for target.
-clean: CMakeFiles/PR_TME9.dir/clean
+CMakeFiles/PR_TME9_EX2.dir/clean:
+	$(MAKE) -f CMakeFiles/PR_TME9_EX2.dir/build.make CMakeFiles/PR_TME9_EX2.dir/clean
+.PHONY : CMakeFiles/PR_TME9_EX2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/PR_TME9_EX2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/PR_TME9_EX1.dir
+
+# All Build rule for target.
+CMakeFiles/PR_TME9_EX1.dir/all:
+	$(MAKE) -f CMakeFiles/PR_TME9_EX1.dir/build.make CMakeFiles/PR_TME9_EX1.dir/depend
+	$(MAKE) -f CMakeFiles/PR_TME9_EX1.dir/build.make CMakeFiles/PR_TME9_EX1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target PR_TME9_EX1"
+.PHONY : CMakeFiles/PR_TME9_EX1.dir/all
+
+# Include target in all.
+all: CMakeFiles/PR_TME9_EX1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PR_TME9_EX1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PR_TME9_EX1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/CLionProjects/M1_S1_PR/PR_TME9/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/PR_TME9_EX1.dir/rule
+
+# Convenience name for target.
+PR_TME9_EX1: CMakeFiles/PR_TME9_EX1.dir/rule
+
+.PHONY : PR_TME9_EX1
+
+# clean rule for target.
+CMakeFiles/PR_TME9_EX1.dir/clean:
+	$(MAKE) -f CMakeFiles/PR_TME9_EX1.dir/build.make CMakeFiles/PR_TME9_EX1.dir/clean
+.PHONY : CMakeFiles/PR_TME9_EX1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/PR_TME9_EX1.dir/clean
 
 .PHONY : clean
 
